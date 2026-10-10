@@ -76,7 +76,7 @@ few_shot_examples = [
 
 '''
 
-user_query = "Why my email is not being delivered to the recipient?"
+user_query = input("Enter the email text to classify: ")
 
 messages = [
     {"role": "system", "content": system_prompt},
